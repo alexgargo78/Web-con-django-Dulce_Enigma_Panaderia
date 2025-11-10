@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+{% block body_class %}fondo-panaderia{% endblock %}
+
+{% block title %}Ofertas — Dulce Enigma{% endblock %}
+
+{% block content %}
+<h2>Ofertas de la semana</h2>
+
+<div class="offers-grid">
+  <article class="offer-card offer-croissant">
+    <div class="badge">3x2</div>
+    <h3>Croissants artesanos</h3>
+    <p class="meta">Promoción válida los martes</p>
+    <p class="desc">Hojaldre 100% mantequilla. Llévate 3 y paga 2.</p>
+  </article>
+
+  <article class="offer-card offer-tarta">
+    <div class="badge">-20%</div>
+    <h3>Tartaletas de frutas</h3>
+    <p class="meta">Solo este mes</p>
+    <p class="desc">Base crujiente + crema de vainilla y fruta de temporada.</p>
+  </article>
+
+  <article class="offer-card offer-cafe">
+    <div class="badge">5€</div>
+    <h3>Café + roll de canela</h3>
+    <p class="meta">De 8:00 a 10:00</p>
+    <p class="desc">Combo de desayuno a precio especial.</p>
+  </article>
+</div>
+{% endblock %}
+
+
+
