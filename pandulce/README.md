@@ -3,6 +3,7 @@
     Landing page desarrollada con Django para una panadería artesanal.
     El proyecto muestra un diseño limpio, sencillo y funcional, ideal como práctica de introducción al framework Django.
 
+
 🧰 Tecnologías utilizadas
 
     Tecnología	Descripción
@@ -10,6 +11,7 @@
     🌐 Django	Framework web utilizado para el desarrollo de la aplicación.
     🧩 HTML5	Estructura del contenido de la página.
     🎨 CSS3	    Estilos y diseño visual del sitio.
+
 
 📚 Proyecto académico
 
